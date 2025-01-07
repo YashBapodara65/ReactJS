@@ -8,9 +8,9 @@ function App() {
   return (
     <>
     <div className="w-100">
-    <header>
-      <button onClick={()=>{setDisp(true)}}>Product Form</button>
-      <button onClick={()=>{setDisp(false)}}>Product List</button>
+    <header className="bg-dark d-flex justify-content-center align-items-center py-3 gap-5">
+      <button className="border-0 bg-dark text-white" onClick={()=>{setDisp(true)}}>Product Form</button>
+      <button className="border-0 bg-dark text-white" onClick={()=>{setDisp(false)}}>Product List</button>
     </header>
     <Form dataDisp={disp} />
     </div>
