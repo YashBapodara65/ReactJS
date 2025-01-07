@@ -1,0 +1,75 @@
+.main
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1
+{
+    width: 400px;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2874f0;
+    position: relative;
+}
+
+.head1
+{
+    color: white;
+    padding: 0px 30px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragraph
+{
+    padding: 10px 30px;
+    color: rgb(224, 223, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_data
+{
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form .inputs
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.submit_btn
+{
+    margin-top: 10px;
+    border: none;
+    background-color: #fb641b;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 7px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.link
+{
+    color: #2874f0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logo
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
