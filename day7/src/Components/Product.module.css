@@ -1,0 +1,39 @@
+.headers
+{
+    background-color: black;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.form_data
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    padding: 20px;
+}
+
+.box
+{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 30px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.prod_img
+{
+    width: 100%;
+}
