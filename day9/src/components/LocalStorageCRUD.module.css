@@ -1,0 +1,4 @@
+.tbl::-webkit-scrollbar
+{
+    display: none;
+}
